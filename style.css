@@ -1,0 +1,62 @@
+.photo{
+    height: max-content;
+    width: max-content;
+}
+
+.photo img{
+    height: 23px;
+    width: 23px;
+}
+
+.apps:hover{
+  border-radius:2px ;
+  border: 1px solid red;
+  padding: 5px;
+  height:max-content ;
+  width: max-content;
+}
+
+#git:hover{
+  border-radius:2px ;
+  border: 1px solid white;
+  padding: 5px;
+  height:max-content ;
+  width: max-content;
+}
+
+#linkedin:hover{
+  border-radius:2px ;
+  border: 1px solid rgb(71, 146, 222);
+  padding: 5px;
+  height:max-content ;
+  width: max-content;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+  .title-desc {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    margin-left: 26px;
+  }
+  
+  .title-desc.animate {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  .title-descs.animate {
+    animation: fadeIn 1s ease-out forwards;
+  }
+   
+  .title-descs {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+  }
